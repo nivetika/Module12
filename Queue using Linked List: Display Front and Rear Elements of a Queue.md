@@ -29,8 +29,24 @@ To write a Python program to:
 
 ---
 ## Program
-Add code here
+```
+queue = []
+
+queue.append('a')
+queue.append('b')
+queue.append('c')
+queue.append('d')
+
+print('Initial Queue: ' + str(queue))
+print()
+print("Element at the front of the queue is .... ",queue[0])
+print()
+print("Element at the rear of the queue is .... ",queue[-1])
+```
 
 ## Output
 
+<img width="1083" height="287" alt="image" src="https://github.com/user-attachments/assets/472ef5cc-07f4-4a67-be51-b692bd45bc48" />
+
 ## Result
+Thus to write a python program to display front and rear elements in a queue using linkedlist is created anf executed successfully.
