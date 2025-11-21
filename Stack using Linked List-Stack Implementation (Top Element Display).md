@@ -22,8 +22,26 @@ The program allows inserting 3 elements from the user and then prints the **top 
 ---
 
 ## 💻 Program
-Add Code Here
+```
+stack = []
+
+stack.append('a')
+stack.append('b')
+stack.append('c')
+stack.append('d')
+print('Initial stack: ' + str(stack))
+
+print("\nElement at the top of the stack is .... ", stack[-1])
+
+stack.pop()
+
+print("\nAfter removing an element from the stack.")
+print("\nElement at the top of the stack is .... ", stack[-1])
+```
 
 ## Output
 
+<img width="1053" height="336" alt="image" src="https://github.com/user-attachments/assets/60f7c031-f8ec-4413-a4a5-6c103deddeaa" />
+
 ## Result
+Thus to write a python program to display the top element in stack implementation is created and executed successfully.
